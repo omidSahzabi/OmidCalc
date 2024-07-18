@@ -1,0 +1,73 @@
+button {
+  font-size: 1rem;
+  width: 30px;
+  border: 1px solid hsl(0, 0%, 84%);
+  padding: 5px;
+}
+
+.App {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.display {
+  width: 40%;
+  height: 20px;
+  align-self: center;
+  background: lightgray;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.expression {
+  height: 30px;
+  color: rgb(170, 170, 170);
+}
+
+.panel {
+  display: flex;
+  justify-content: center;
+}
+
+.numbers {
+  display: flex;
+  flex-flow: wrap;
+  flex-wrap: wrap;
+  justify-items: stretch;
+  width: 90px;
+}
+
+.numbers button:last-child {
+  width: 100%;
+}
+
+.operators {
+  display: flex;
+  flex-flow: column;
+}
+
+.operators button {
+  color: white;
+  background: #f5ac0f;
+  border-left: none;
+  border-bottom: 0;
+}
+
+.operators button:last-child {
+  color: white;
+  background: #63f50f;
+  border-left: none;
+  border-bottom: 0;
+}
+h6{
+  font-size: 0.8rem;
+  color: rgb(14, 14, 14);
+  margin-top: 350px;
+}
+h6 span {
+  font-size: 0.6rem;
+  color: rgba(0, 0, 0, 0.329)
+}
