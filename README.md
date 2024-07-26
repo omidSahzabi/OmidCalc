@@ -16,4 +16,4 @@ we have two states that i named them 'display' which shows the answer  and the
 the next things are js operators that we used in this app.
 i learned it from OpenCode whichb is YouTube channel and you can whatch to learn about it more.
 
-*thank you for visiting , OmidSahzabi - fullHouse.*
+*thank you for visiting , OmidSahzabi - fullHouse 2024*
